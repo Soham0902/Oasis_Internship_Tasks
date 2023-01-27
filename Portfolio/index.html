@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9e9cef431e.js" crossorigin="anonymous"></script>
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <nav>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#inner">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#hobbies">Hobbies</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>    
+            </nav>
+    </header>
+    <section>
+        <div class="left">
+            <div class="image sticky">
+                <div class="bg" style="background-image: url('Soham_image.png');"></div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="inner">
+                <div class="text-centre">
+                    <h1>Soham <br>Bhirange</h1>
+                    <h4>Web Developer</h4>
+                    <p>Hii there, This is Soham Jayant Bhirange and this is my official Portfolio Website. You can see all the information related to me in this website, you can directly jump to a particular section if you want through the Navigation bar or you can scroll down and see each section inorder. In this portfolio, you can see <span>About me, My Skills, my contact details, my position of Responsibilities</span> all the further details you can see them in particular section. </p>
+                </div>
+                <button class="btn"><a href="#contact">Contact Me</a></button>
+                <hr>
+                <div id="about">
+                    <h3>About Me</h3>
+                    <h4>My Introduction</h4>
+                    <p>Hello, My self Soham Jayant Bhirange, currently studing in Third Year of Computer Engineering in AISSMS College of Engineering, Pune. My skills are HTML, CSS, Bootstap, JavaScript. I also have a basic knowledge of React JS, I know MySql, MongoDB, C++ and currently I'm learning Java. I'm a 5star coder in C++ on HackerRank also, I have 2 stars on Codechef.
+                        <br>
+                    Apart from studies, I'm a Joint General Secretary of Magazine Department of my College and also a NSS volunteer. My hobbies are Reading, Writing Poetries, playing Tabla, Congo and Drums. </p>
+                    <p>You can download my Resume from the below link.</p>
+                    <button class="btn"><a href="Soham_Bhirange_Resume.pdf" target="_blank">Download</a></button>
+                </div>
+                <hr>
+                <div id="services">
+                    <h3>Services</h3>
+                    <h4>Services we provide</h4>
+                    <div class="cards">
+                        <div class="card1">
+                            <i class="fa-sharp fa-solid fa-user"></i>
+                            <h4>Frontend Development</h4>
+                            <p id="text">We provide responsive Frontend Development services using HTML, CSS, JS, Bootstap and React JS.</p>
+                        </div>
+                        <div class="card2">
+                            <i class="fa-sharp fa-solid fa-database"></i>
+                            <h4>Backend Development</h4>
+                            <p id="text">All backend services with all functionality is provided. We use Node Js and Express JS for our service.</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card1">
+                            <i class="fa-solid fa-desktop"></i>
+                            <h4>Full Stack Development</h4>
+                            <p id="text">Full working website is also provided by us. You will get data base also. We use MongoDB and MySQL servers also we provide Rest API services.</p>
+                        </div>
+                        <div class="card2">
+                            <i class="fa-sharp fa-solid fa-terminal"></i>
+                            <h4>Software Engineering</h4>
+                            <p id="text">I'm also a Software Engineer. I have knowledge of C++ and Data Structures & Algorithm in Java. Also I have knowledge of OS, CN and DBMS.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <hr>
+    <section id="hobbies">
+        <div class="left">
+            <div class="image sticky">
+                <div class="bg1" style="background-image: url('drums.jpg');"></div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="inner">
+                <div class="text-centre">
+                    <h3>Hobbies</h3>
+                    <h4>Things I do in free time</h4>
+                    <div class="cards">
+                        <div class="card1">
+                            <i class="fa-sharp fa-solid fa-book"></i>
+                            <h4>Reading</h4>
+                            <p id="text">I love to read books. I've read many books and most of them are self help books.</p>
+                        </div>
+                        <div class="card2">
+                            <i class="fa-sharp fa-solid fa-edit"></i>
+                            <h4>Poetry Writing</h4>
+                            <p id="text">I'm a poet by nature. I love reading and writing poems and Shayris. I have also published most of them in my college magazine.</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card1">
+                            <i class="fa-solid fa-drum"></i>
+                            <h4>Drums</h4>
+                            <p id="text">Modern music nowadays always involves beats and drums are always the best way to create them. I like the rhytms alot.</p>
+                        </div>
+                        <div class="card2">
+                            <i class="fa-sharp fa-solid fa-drum"></i>
+                            <h4>Tabla</h4>
+                            <p id="text">Nothing can bit the classical aura, and Tabla adds the great sense to it.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div id="contact">
+                    <h3>Contact</h3>
+                    <h4>Let's talk</h4>
+                    <div class="cnt">
+                        <div class="form">
+                            <form action="">
+                                <h5>Full Name</h5>
+                                <input type="text" placeholder="Enter Full Name" required>
+                                <h5>Email</h5>
+                                <input type="email" placeholder="Enter your Email" required>
+                                <h5>Message</h5>
+                                <textarea name="text" cols="30" rows="10" placeholder="Enter Message" required></textarea>
+                                <button class="btn">Submit</button>
+                            </form>
+                        </div>    
+                        <div class="details">
+                            <i class="fa-solid fa-phone"><a href="tel:+917709200288">+91 7709200288</a></i>
+                            <i class="fa-solid fa-envelope"><a href="mailto:bhirangesoham1@gmail.com">Soham Bhirange</a></i>
+                           <a href="https://github.com/Soham0902" target="_blank"><img id="Limg" src="github-logo-24 (1).png" alt="GitHub"> </a>
+                           <a href="https://www.linkedin.com/in/soham-bhirange-166242211" target="_blank"><img src="linkedin-square-logo-24 (1).png" alt="LinkedIn"> </a>
+                           <a href="https://instagram.com/sohambhirange?igshid=NTA5ZTk1NTc=" target="_blank"><img src="instagram-alt-logo-24.png" alt="Instagram"> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>          
+    </section>       
+</body>
+</html>
